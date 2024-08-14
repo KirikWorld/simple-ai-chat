@@ -38,7 +38,7 @@ export default function Home() {
 
   const doRequest = (text: string) => {
     setLoading(true);
-    fetch("http://95.174.95.83:11434/api/generate", {
+    fetch("https://ollama.kurayami.ru/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
